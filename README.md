@@ -3,9 +3,10 @@
 
 # Summarize
 
-Summarize is an empty repository that holds no code yet.
+Summarize is a public repository that currently holds only project scaffolding, such as issue templates, contributing guidelines, and a license, with no application source, manifest, or entry point of any language.
 
-[![CI](https://github.com/anyingiit/Summarize/actions/workflows/ci.yml/badge.svg)](https://github.com/anyingiit/Summarize/actions/workflows/ci.yml)
+**English** · [简体中文](README.zh-CN.md)
+
 [![License](https://img.shields.io/github/license/anyingiit/Summarize)](LICENSE)
 
 [Report a bug](https://github.com/anyingiit/Summarize/issues/new?template=bug_report.yml) · [Request a feature](https://github.com/anyingiit/Summarize/issues/new?template=feature_request.yml)
@@ -24,7 +25,7 @@ Summarize is an empty repository that holds no code yet.
 
 ## About The Project
 
-Summarize is an empty repository that holds no code yet.
+Summarize is a public repository that currently contains only its governance and CI scaffolding — issue templates such as [`.github/ISSUE_TEMPLATE/bug_report.yml`](.github/ISSUE_TEMPLATE/bug_report.yml), a [pull request template](.github/PULL_REQUEST_TEMPLATE.md), and [`CONTRIBUTING.md`](CONTRIBUTING.md) — with no application source, package manifest, or entry point of any language. It was set up from a documentation and CI starter kit and has not yet had any code committed to it.
 
 See the [open issues](https://github.com/anyingiit/Summarize/issues) for planned features and known issues.
 
@@ -32,20 +33,21 @@ See the [open issues](https://github.com/anyingiit/Summarize/issues) for planned
 
 ### Prerequisites
 
-- Git
+- Python 3 and the `pre-commit` package, needed only to run the lint hooks declared in [`.pre-commit-config.yaml`](.pre-commit-config.yaml) (trailing-whitespace, end-of-file-fixer, check-yaml, check-merge-conflict, check-added-large-files). Nothing else is required, because there is no application here to build.
 
 ### Installation
+
+There is no package manifest to install against yet; cloning the repository is enough to inspect its scaffolding, and enabling its lint hooks is optional.
 
 ```sh
 git clone https://github.com/anyingiit/Summarize.git
 cd Summarize
+pre-commit install
 ```
 
 ## Usage
 
-```sh
-Summarize --help
-```
+This repository has no runnable program yet. Until source code is added, its only user-facing surface is opening an issue or a pull request through the templates under [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE) and [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md).
 
 ## Contributing
 
